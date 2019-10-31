@@ -1,0 +1,27 @@
+.conteiner {
+	$hz: 1349px;
+	width: #{$hz};
+	height: auto;
+	.border {
+		background-color: lightgray;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		.kubik {
+			$size: 150px;
+			width: #{$size};
+			height: #{$size};
+			background-image: url(back.jpg);
+			margin: 10px;
+			//    &:nth-child(2n+2){
+			//     background-image: url(back2.jpg);  
+			//    }
+		}
+		.nie {
+			background-image: url(back2.jpg);
+			border: 1px solid wheat;
+		}
+	}
+}

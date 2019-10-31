@@ -1,0 +1,33 @@
+.conteiner {
+  width: 1349px;
+  height: auto;
+}
+
+.conteiner .border {
+  background-color: lightgray;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conteiner .border .kubik {
+  width: 150px;
+  height: 150px;
+  background-image: url(back.jpg);
+  margin: 10px;
+}
+
+.conteiner .border .nie {
+  background-image: url(back2.jpg);
+  border: 1px solid wheat;
+}
+/*# sourceMappingURL=main.css.map */
